@@ -11,6 +11,6 @@ semi = perimeter /2
 # Heron's Formula
 area = sqrt(semi*(semi-side_a)*(semi-side_b)*(side_c))
 
-print(f"The perimeter is {perimeter}.")
+print(f"The perimeter is {perimeter:,.3f}.")
 print()
-print(f"The area is {area}.")
+print(f"The area is {area:,.3f}.")
